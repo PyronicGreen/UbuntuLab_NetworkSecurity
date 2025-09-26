@@ -4,13 +4,13 @@ This project is meant to serve as a foundational primer for common tools used in
 
 - Command: **ifconfig**
   _ifconfig_ stands for "interface configuration." This command-line tool is used to view and configure network interfaces. It will display all network interfaces along with their associated IP addresses. The output of the command will show:
-  _ **inet addr**: the IP address assigned to the interface. 
-  _ **Netmask**: defines which portion of the IP address is the network and which is the host. Network will have “255” in the octet, while the host part will have any other number besides 0, 255 and 256.
-  _ **Broadcast address**: used to send data to all hosts on the network.
-  _ **Ether / MAC address**: physical hardware address of your network card.
-  _ **RX/TX packets, errors, dropped**: RX is received and TX is transmitted; shows the number of packets handled. Errors/drops may indicate network issues.
-  _ **MTU**: Maximum Transmission Unit. Largest size of a packet that can be transmitted\*\*
-  ![[ifconfig_VirtualBox.jpg]]
+  - **inet addr**: the IP address assigned to the interface. 
+  - **Netmask**: defines which portion of the IP address is the network and which is the host. Network will have “255” in the octet, while the host part will have any other number besides 0, 255 and 256.
+  - **Broadcast address**: used to send data to all hosts on the network.
+  - **Ether / MAC address**: physical hardware address of your network card.
+  - **RX/TX packets, errors, dropped**: RX is received and TX is transmitted; shows the number of packets handled. Errors/drops may indicate network issues.
+  - **MTU**: Maximum Transmission Unit. Largest size of a packet that can be transmitted\*\*
+    !()[ifconfig VirtualBox.jpg]
 
 2. **Check Open Ports**
 
