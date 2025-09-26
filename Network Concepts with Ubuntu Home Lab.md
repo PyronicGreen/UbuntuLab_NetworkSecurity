@@ -10,13 +10,17 @@ This project is meant to serve as a foundational primer for common tools used in
   - **Ether / MAC address**: physical hardware address of your network card.
   - **RX/TX packets, errors, dropped**: RX is received and TX is transmitted; shows the number of packets handled. Errors/drops may indicate network issues.
   - **MTU**: Maximum Transmission Unit. Largest size of a packet that can be transmitted\*\*
-    !()[ifconfig VirtualBox.jpg]
+  
+    ![ifconfig_VirtualBox](https://github.com/user-attachments/assets/142e0402-798f-4679-9bcb-740ecbb175f8)
+
 
 2. **Check Open Ports**
 
 - Command: **sudo netstat -tuln** or **ss -tuln**
   The _netstat_ command is a network utility that displays active network connections, ports that are open and listening, as well as various statistics on your local machine. _-tuln_ is equivalent to combining the flags -t (TCP), -u (UDP), -l (show only _listening_ sockets), -p (program; show the PID and name of the program) and -n (show _numeric_ addresses). This command is useful in helping identify unnecessary open ports that could be potential entry points for attackers.
-  ![[netstat_VirtualBox.jpg]]
+
+  ![netstat_VirtualBox](https://github.com/user-attachments/assets/7ce50ad5-c45a-4e3d-8d20-97013b57eaf3)
+
 
 3. **Analyze Network Connections**
 
