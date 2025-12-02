@@ -10,4 +10,4 @@ Everything here runs in a self-contained environment (virtual machines, Docker a
 
 - [Network Concepts with Ubuntu Home Lab](Network%20Concepts%20with%20Ubuntu%20Home%20Lab.md)
 - [Configuring Snort NIDS/NIPS](JRinaldi_NetSec6.pdf)
-- [UFW - Allowing and Denying Network Traffic](https://github.com/PyronicGreen/UFW_Configuration.git)
+- [UFW - Allowing and Denying Network Traffic](Rinaldi_NetSec5.pdf)
